@@ -94,3 +94,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to the open-source community for providing helpful resources and libraries.
 - Special thanks to the project mentors and reviewers for their guidance and support.
 
+<p>
+  
+ <img src = "https://github.com/theAkHilsarkar18/Master_Calculator_Android/assets/113697861/123098ce-6c4e-4245-9cd4-423bea208c8e" width=22% height=35%>
+    <img src = "https://github.com/theAkHilsarkar18/Master_Calculator_Android/assets/113697861/3080ba5f-6136-4c75-8261-7a08ae3a6fe5" width=22% height=35%>
+    <img src = "https://github.com/theAkHilsarkar18/Master_Calculator_Android/assets/113697861/1aaee21e-afd1-4e28-b854-720bdaa48396" width=22% height=35%>
+    <img src = "https://github.com/theAkHilsarkar18/Master_Calculator_Android/assets/113697861/c54a5a01-00f1-45d7-9a5e-afa60e99a91d" width=22% height=35%>
+    <img src = "https://github.com/theAkHilsarkar18/Master_Calculator_Android/assets/113697861/ce1f312b-791c-4938-8e11-1aa661b6568f" width=22% height=35%>
+</p>
+
