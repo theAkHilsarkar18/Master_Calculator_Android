@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonEMI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="EMI Calculator"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:onClick="openEMICalculator"/>
+
+    <Button
+        android:id="@+id/buttonMutualFund"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mutual Fund Calculator"
+        app:layout_constraintTop_toBottomOf="@id/buttonEMI"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:onClick="openMutualFundCalculator"/>
+
+    <Button
+        android:id="@+id/buttonInterest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Interest Calculator"
+        app:layout_constraintTop_toBottomOf="@id/buttonMutualFund"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:onClick="openInterestCalculator"/>
+
+    <Button
+        android:id="@+id/buttonDiscount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Discount Calculator"
+        app:layout_constraintTop_toBottomOf="@id/buttonInterest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:onClick="openDiscountCalculator"/>
+
+    <Button
+        android:id="@+id/buttonSchoolResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="School Result Calculator"
+        app:layout_constraintTop_toBottomOf="@id/buttonDiscount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:onClick="openSchoolResultCalculator"/>
+
+    <Button
+        android:id="@+id/buttonAge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Age Calculator"
+        app:layout_constraintTop_toBottomOf="@id/buttonSchoolResult"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="openAgeCalculator"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
